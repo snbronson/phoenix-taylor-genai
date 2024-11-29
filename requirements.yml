@@ -1,0 +1,62 @@
+name: genai
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+- python=3.9
+- accelerate
+- Bottleneck
+- chromadb
+- diffusers
+- docx2txt
+- faiss-cpu
+- ftfy
+- gensim
+- glob2
+- google-cloud-storage
+- gradio
+- html2text
+- ipywidgets
+- langchain
+- langchainhub
+- langchain-community
+- langchain-experimental
+- langchain-mistralai
+- langchain-text-splitters
+- langchain-openai
+- lark
+- matplotlib
+- natsort
+- notebook
+- numexpr
+- numpy
+- openai
+- pandas
+- pdf2image
+- pillow
+- pydantic
+- pymongo
+- pypdf
+- pytest-playwright
+- python-dotenv
+- scikit-learn
+- scipy
+- sentence-transformers
+- spacy
+- tabulate
+- tiktoken
+- tqdm
+- transformers
+- unstructured
+- unstructured[docx]
+- PyYAML
+- pytest
+- pytorch
+- pip
+- pip:
+  - serpapi
+  - pinecone-client
+  - nest_asyncio
+  - google-search-results
+  - getpass2
